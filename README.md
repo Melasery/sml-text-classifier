@@ -53,6 +53,20 @@ Developers needing a **modular SML framework** for document analysis
 ```
 
 
+The following files were provided by **Professor Dan Licata** and are included for completeness:
+- `sequtils.sig`
+- `mapreduce.sig`
+- `mapreduce.sml`
+- `sequtils.sml`
+- `filemr.sml`
+- `extractcombine.sig`
+- `classify.sig`
+- `testclassify.sml`
+- `testclassify-seq.sml`
+
+These files serve as a foundation for the classification framework but were not authored by Marouan El-Asery.
+
+
 
 ## Key Source Files
 - **`classify.sml`** → Implements the Naïve Bayes classification model.
