@@ -52,6 +52,11 @@ Developers needing a **modular SML framework** for document analysis
 │── Makefile                   
 ```
 
+## Key Source Files
+- **`classify.sml`** → Implements the Naïve Bayes classification model.
+- **`dict.sml`** → A dictionary structure to store word frequencies.
+- **`extractcombine.sml`** → Defines a functional Extract-Combine (MapReduce) framework.
+- **`wordfreq.sml`** → Extracts and counts word frequencies from text data.
 
 The following files were provided by **Professor Dan Licata** and are included for completeness:
 - `sequtils.sig`
@@ -65,16 +70,6 @@ The following files were provided by **Professor Dan Licata** and are included f
 - `testclassify-seq.sml`
 
 These files serve as a foundation for the classification framework but were not authored by Marouan El-Asery.
-
-
-
-## Key Source Files
-- **`classify.sml`** → Implements the Naïve Bayes classification model.
-- **`dict.sml`** → A dictionary structure to store word frequencies.
-- **`extractcombine.sml`** → Defines a functional Extract-Combine (MapReduce) framework.
-- **`wordfreq.sml`** → Extracts and counts word frequencies from text data.
-
-
 
 ## Getting Started
 
